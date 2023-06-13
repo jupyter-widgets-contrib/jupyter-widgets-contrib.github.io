@@ -24,9 +24,9 @@ from datetime import datetime
 from recommonmark.transform import AutoStructify
 
 HERE = pathlib.Path(__file__).parent
-GET_REPOS = "https://api.github.com/orgs/jupyterlab-contrib/repos"
-GET_REPO = "https://api.github.com/repos/jupyterlab-contrib/"
-REPO_BADGE = "[![GitHub Repo stars](https://img.shields.io/github/stars/jupyterlab-contrib/{name}?style=social)]({html_url})"
+GET_REPOS = "https://api.github.com/orgs/jupyter-widgets-contrib/repos"
+GET_REPO = "https://api.github.com/repos/jupyter-widgets-contrib/"
+REPO_BADGE = "[![GitHub Repo stars](https://img.shields.io/github/stars/jupyter-widgets-contrib/{name}?style=social)]({html_url})"
 TOKEN = os.getenv("GITHUB_TOKEN")
 
 footer = (HERE / "extensions.tpl").read_text()
@@ -87,10 +87,10 @@ finally:
 
 # -- Project information -----------------------------------------------------
 
-project = "jupyterlab-contrib"
+project = "jupyter-widgets-contrib"
 year = datetime.strftime(datetime.now(), "%Y")
-copyright = f"2020-{year}, JupyterLab Contrib Team"
-author = "JupyterLab Contrib Team"
+copyright = f"2023-{year}, Jupyter Widgets Contrib Team"
+author = "Jupyter Widgets Contrib Team"
 
 # The full version, including alpha/beta/rc tags
 release = "1.0.0"
@@ -143,25 +143,20 @@ html_sidebars = {
 # Material theme options (see theme.conf for more information)
 html_theme_options = {
     # Set the name of the project to appear in the navigation.
-    "nav_title": "JupyterLab Unofficial Extensions & Tools",
+    "nav_title": "Jupyter Widgets Unofficial Extensions & Tools",
     "nav_links": [
         {
-            "href": "https://jupyterlab.readthedocs.io/en/stable/",
-            "title": "JupyterLab Documentation",
+            "href": "https://github.com/jupyter-widgets",
+            "title": "Jupyter Widgets Organization",
             "internal": False,
         },
         {
-            "href": "https://jupyter-server.readthedocs.io/en/stable/",
-            "title": "Jupyter Server Documentation",
-            "internal": False,
-        },
-        {
-            "href": "https://github.com/jupyterlab-contrib/jupyterlab-contrib.github.io/issues/new?labels=transfer&template=transfer-repository-to-this-organization.md",
+            "href": "https://github.com/jupyter-widgets-contrib/jupyter-widgets-contrib.github.io/issues/new?labels=transfer&template=transfer-repository-to-this-organization.md",
             "title": "Transfer your extension",
             "internal": False,
         },
         {
-            "href": "https://github.com/jupyterlab-contrib/jupyterlab-contrib.github.io/issues/new?template=help-with-maintenance.md",
+            "href": "https://github.com/jupyter-widgets-contrib/jupyter-widgets-contrib.github.io/issues/new?template=help-with-maintenance.md",
             "title": "I want to help",
             "internal": False,
         },
@@ -171,13 +166,13 @@ html_theme_options = {
     # 'google_analytics_account': 'UA-XXXXX',
     # Specify a base_url used to generate sitemap.xml. If not
     # specified, then no sitemap will be built.
-    "base_url": "https://jupyterlab-contrib.github.io",
+    "base_url": "https://jupyter-widgets-contrib.github.io",
     # Set the color and the accent color
     "color_primary": "deep-orange",
     "color_accent": "orange",
     # Set the repo location to get a badge with stats
-    "repo_url": "https://github.com/jupyterlab-contrib/jupyterlab-contrib.github.io",
-    "repo_name": "jupyterlab-contrib",
+    "repo_url": "https://github.com/jupyter-widgets-contrib/jupyter-widgets-contrib.github.io",
+    "repo_name": "jupyter-widgets-contrib",
     # Visible levels of the global TOC; -1 means unlimited
     "globaltoc_depth": 2,
     # If False, expand all TOC entries

@@ -28,8 +28,8 @@ If mandatory points are not fulfilled, there is a low chance the transfer will b
 -->
 
 - [ ] You are owner of the repository you want to transfer
-- Which role do you want to have in the `jupyterlab-contrib` organization (check one of):
-  - [ ] Help with all `jupyterlab-contrib` repositories
+- Which role do you want to have in the `jupyter-widgets-contrib` organization (check one of):
+  - [ ] Help with all `jupyter-widgets-contrib` repositories
   - [ ] Help with the transferred repository only
   - [ ] I don't have time anymore to keep helping the project
 - The transferred repository (check one of):
@@ -38,7 +38,6 @@ If mandatory points are not fulfilled, there is a low chance the transfer will b
   - [ ] I don't care
 - [ ] The code is available under a Open Source license
 - [ ] A license file is present in the code repository
-- [ ] The extension is working on at least JupyterLab 2.x
 - [ ] The repository contains a README file describing:
   - [ ] The provided feature(s)
   - [ ] A picture illustrating the feature(s)
