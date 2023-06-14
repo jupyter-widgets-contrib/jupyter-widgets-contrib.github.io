@@ -22,7 +22,7 @@ This a list of nice Jupyter Widgets libraries not part of ``jupyter-widgets-cont
 
 - [tutorial](https://github.com/jupyter-widgets/tutorial) - Tutorials for widgets.
 
-### Widgets Libraries
+### External Widgets Libraries
 
 - [ipympl](https://github.com/matplotlib/ipympl): The Matplotlib interactive back-end for Jupyter, using ipywidgets.
 - [ipychart](https://github.com/nicohlr/ipychart) - Interactive Chart.js plots in Jupyter.
@@ -34,3 +34,9 @@ This a list of nice Jupyter Widgets libraries not part of ``jupyter-widgets-cont
 - [ipyaggrid](https://github.com/widgetti/ipyaggrid) -  The power of ag-Grid in Jupyter.
 - [ipydatagrid](https://github.com/bloomberg/ipydatagrid) - Fast datagrid widget for Jupyter.
 - [ipyregulartable](https://github.com/jpmorganchase/ipyregulartable) - High performance, editable, stylable datagrids in Jupyter.
+
+Widget libraries for the C++ kernel [xeus-cling](https://github.com/jupyter-xeus/xeus-cling):
+
+- [xwidgets](https://github.com/jupyter-xeus/xwidgets) - C++ back-end for Jupyter Widgets
+- [xleafet](https://github.com/jupyter-xeus/xleafet) - C++ back-end for jupyter leaflet widget
+- [xcanvas](https://github.com/jupyter-xeus/xcanvas) - C++ back-end for ipycanvas
