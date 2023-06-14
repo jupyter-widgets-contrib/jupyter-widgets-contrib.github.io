@@ -1,4 +1,3 @@
-
 # Jupyter Widgets Unofficial Extensions & Tools
 
 This organization gathers useful extensions and tools for [jupyter-widgets](https://github.com/jupyter-widgets).
