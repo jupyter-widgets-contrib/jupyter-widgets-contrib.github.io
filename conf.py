@@ -168,8 +168,8 @@ html_theme_options = {
     # specified, then no sitemap will be built.
     "base_url": "https://jupyter-widgets-contrib.github.io",
     # Set the color and the accent color
-    "color_primary": "deep-orange",
-    "color_accent": "orange",
+    "color_primary": "green",
+    "color_accent": "green",
     # Set the repo location to get a badge with stats
     "repo_url": "https://github.com/jupyter-widgets-contrib/jupyter-widgets-contrib.github.io",
     "repo_name": "jupyter-widgets-contrib",
