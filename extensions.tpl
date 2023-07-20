@@ -38,5 +38,5 @@ This a list of nice Jupyter Widgets libraries not part of ``jupyter-widgets-cont
 Widget libraries for the C++ kernel [xeus-cling](https://github.com/jupyter-xeus/xeus-cling):
 
 - [xwidgets](https://github.com/jupyter-xeus/xwidgets) - C++ back-end for Jupyter Widgets
-- [xleafet](https://github.com/jupyter-xeus/xleafet) - C++ back-end for jupyter leaflet widget
+- [xleaflet](https://github.com/jupyter-xeus/xleaflet) - C++ back-end for jupyter leaflet widget
 - [xcanvas](https://github.com/jupyter-xeus/xcanvas) - C++ back-end for ipycanvas
