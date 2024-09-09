@@ -34,6 +34,8 @@ This a list of nice Jupyter Widgets libraries not part of ``jupyter-widgets-cont
 - [ipyaggrid](https://github.com/widgetti/ipyaggrid) -  The power of ag-Grid in Jupyter.
 - [ipydatagrid](https://github.com/bloomberg/ipydatagrid) - Fast datagrid widget for Jupyter.
 - [ipyregulartable](https://github.com/jpmorganchase/ipyregulartable) - High performance, editable, stylable datagrids in Jupyter.
+- [ipecharts](https://github.com/trungleduc/ipecharts) - Apache Echarts Jupyter Widget.
+- [ipyflex](https://github.com/trungleduc/ipyflex) - WYSIWYG layout editor for Jupyter Widget.
 
 Widget libraries for the C++ kernel [xeus-cling](https://github.com/jupyter-xeus/xeus-cling):
 
